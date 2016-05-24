@@ -102,6 +102,289 @@
     <interfaces name="Readable"/>
     <interfaces name="Runnable"/>
   </packages>
+  <packages name="uniandes.cupi2.salaUrgencias.test">
+    <classes name="AreaAtencionTest" packageName="uniandes.cupi2.salaUrgencias.test" package="//@packages.1">
+      <documentation comment="Clase usada para verificar que los m&#xe9;todos de la clase AreaAtencion est&#xe9;n correctamente implementados."/>
+      <modifiers>public</modifiers>
+      <methods name="setUp" source="{ } " exceptions="//@packages.0/@classes.25">
+        <documentation comment="Este m&#xe9;todo se ejecuta antes de cada m&#xe9;todo de prueba."/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.0"/>
+      </methods>
+      <methods name="tearDown" source="{ } " exceptions="//@packages.0/@classes.25">
+        <documentation comment="Este m&#xe9;todo se ejecuta despu&#xe9;s de cada m&#xe9;todo de prueba."/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.1"/>
+      </methods>
+      <methods name="testdarNombre" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 1 : verifica el m&#xe9;todo darNombre.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testmodificarNombre" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 2 : verifica el m&#xe9;todo modificarNombre.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testdarCantidadProfesionales" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 3 : verifica el m&#xe9;todo darCantidadProfesionales.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testmodificarCantidadProfesionales" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 4 : verifica el m&#xe9;todo modificarCantidadProfesionales.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testdarRutaImagen" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 5 : verifica el m&#xe9;todo darRutaImagen.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testmodificarRutaImagen" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 6 : verifica el m&#xe9;todo modificarRutaImagen.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testdarCantidadPacientes" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 7 : verifica el m&#xe9;todo darCantidadPacientes.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testmodificarCantidadPacientes" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 8 : verifica el m&#xe9;todo modificarCantidadPacientes.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testdarCantidadCuposLibres" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 9 : verifica el m&#xe9;todo darCantidadCuposLibres.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testagregarProfesionales" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 10 : verifica el m&#xe9;todo agregarProfesionales.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testreiniciar" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 11 : verifica el m&#xe9;todo reiniciar.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testretirarProfesionales" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 12 : verifica el m&#xe9;todo retirarProfesionales.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testingresarPacientes" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 13 : verifica el m&#xe9;todo ingresarPacientes.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testdarCantidadCuposDisponibles" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 14 : verifica el m&#xe9;todo darCantidadCuposDisponibles.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testretirarPacientes" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 15 : verifica el m&#xe9;todo retirarPacientes.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testinicializar" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 16 : verifica el m&#xe9;todo inicializar.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <imports name="org.junit.Test"/>
+      <imports name="org.junit.Before"/>
+      <imports name="org.junit.After"/>
+      <imports name="staticorg.junit.Assert.*"/>
+    </classes>
+    <classes name="SalaUrgenciasTest" packageName="uniandes.cupi2.salaUrgencias.test" package="//@packages.1">
+      <documentation comment="Clase usada para verificar que los m&#xe9;todos de la clase SalaUrgencias est&#xe9;n correctamente implementados."/>
+      <modifiers>public</modifiers>
+      <methods name="setUp" source="{ } " exceptions="//@packages.0/@classes.25">
+        <documentation comment="Este m&#xe9;todo se ejecuta antes de cada m&#xe9;todo de prueba."/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.0"/>
+      </methods>
+      <methods name="tearDown" source="{ } " exceptions="//@packages.0/@classes.25">
+        <documentation comment="Este m&#xe9;todo se ejecuta despu&#xe9;s de cada m&#xe9;todo de prueba."/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.1"/>
+      </methods>
+      <methods name="testdarArea2" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 1 : verifica el m&#xe9;todo darArea2.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testmodificarArea2" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 2 : verifica el m&#xe9;todo modificarArea2.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testdarArea4" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 3 : verifica el m&#xe9;todo darArea4.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testmodificarArea4" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 4 : verifica el m&#xe9;todo modificarArea4.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testdarArea3" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 5 : verifica el m&#xe9;todo darArea3.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testmodificarArea3" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 6 : verifica el m&#xe9;todo modificarArea3.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testdarArea1" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 7 : verifica el m&#xe9;todo darArea1.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testmodificarArea1" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 8 : verifica el m&#xe9;todo modificarArea1.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testdarTotalPacientes" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 9 : verifica el m&#xe9;todo darTotalPacientes.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testretirarPacientesArea1" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 10 : verifica el m&#xe9;todo retirarPacientesArea1.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testingresarPacientesArea4" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 11 : verifica el m&#xe9;todo ingresarPacientesArea4.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testinicializar" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 12 : verifica el m&#xe9;todo inicializar.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testdarTotalCuposLibres" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 13 : verifica el m&#xe9;todo darTotalCuposLibres.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testretirarProfesionalesArea2" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 14 : verifica el m&#xe9;todo retirarProfesionalesArea2.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testdarCantidadPromedioProfesionales" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 15 : verifica el m&#xe9;todo darCantidadPromedioProfesionales.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testretirarPacientesArea3" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 16 : verifica el m&#xe9;todo retirarPacientesArea3.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testingresarPacientesArea1" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 17 : verifica el m&#xe9;todo ingresarPacientesArea1.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testagregarProfesionalesArea2" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 18 : verifica el m&#xe9;todo agregarProfesionalesArea2.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testretirarPacientesArea2" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 19 : verifica el m&#xe9;todo retirarPacientesArea2.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testingresarPacientesArea2" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 20 : verifica el m&#xe9;todo ingresarPacientesArea2.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testretirarProfesionalesArea1" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 21 : verifica el m&#xe9;todo retirarProfesionalesArea1.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testagregarProfesionalesArea4" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 22 : verifica el m&#xe9;todo agregarProfesionalesArea4.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testdarPorcentajeDisponibilidad" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 23 : verifica el m&#xe9;todo darPorcentajeDisponibilidad.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testdarPorcentajeOcupacion" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 24 : verifica el m&#xe9;todo darPorcentajeOcupacion.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testretirarProfesionalesArea4" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 25 : verifica el m&#xe9;todo retirarProfesionalesArea4.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testretirarProfesionalesArea3" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 26 : verifica el m&#xe9;todo retirarProfesionalesArea3.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testagregarProfesionalesArea1" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 27 : verifica el m&#xe9;todo agregarProfesionalesArea1.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testretirarPacientesArea4" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 28 : verifica el m&#xe9;todo retirarPacientesArea4.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testagregarProfesionalesArea3" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 29 : verifica el m&#xe9;todo agregarProfesionalesArea3.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testingresarPacientesArea3" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 30 : verifica el m&#xe9;todo ingresarPacientesArea3.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testmetodo1" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 31 : verifica el m&#xe9;todo metodo1.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <methods name="testmetodo2" source="{ fail ( &quot;No se ha implementado la prueba&quot; ) ; } ">
+        <documentation comment="Prueba 32 : verifica el m&#xe9;todo metodo2.&lt;br>"/>
+        <modifiers>public</modifiers>
+        <annotations annotationType="//@packages.2/@annotationsTypes.2"/>
+      </methods>
+      <imports name="org.junit.Test"/>
+      <imports name="org.junit.Before"/>
+      <imports name="org.junit.After"/>
+      <imports name="staticorg.junit.Assert.*"/>
+    </classes>
+  </packages>
+  <packages name="org.junit">
+    <annotationsTypes name="Before" packageName="org.junit" package="//@packages.2" partial="true"/>
+    <annotationsTypes name="After" packageName="org.junit" package="//@packages.2" partial="true"/>
+    <annotationsTypes name="Test" packageName="org.junit" package="//@packages.2" partial="true"/>
+  </packages>
   <types name="byte"/>
   <types name="short" type="short"/>
   <types name="int" type="int"/>
